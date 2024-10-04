@@ -2,12 +2,12 @@ const hamburger = document.getElementById("hamburger");
 const sidebar = document.getElementById("toggledPart");
 const body = document.querySelector("body");
 
-window.onscroll = function() {
+window.onscroll = function () {
     const header = document.getElementById("header");
 
-    if(window.scrollY > 50) {
+    if (window.scrollY > 50) {
         header.classList.add("scrolled");
-    }else {
+    } else {
         header.classList.remove("scrolled");
     };
 };
@@ -19,3 +19,5 @@ const handleClick = () => {
 };
 
 hamburger.addEventListener("click", handleClick);
+
+alert("Relax I'm open!");
