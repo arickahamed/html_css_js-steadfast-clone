@@ -19,5 +19,3 @@ const handleClick = () => {
 };
 
 hamburger.addEventListener("click", handleClick);
-
-// alert("Relax I'm open!");
