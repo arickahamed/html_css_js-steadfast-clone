@@ -1,3 +1,5 @@
 Technology - HTML5, CSS3, Javascript
+
 Steps - First create a html file to get the structure of the website and then use raw css for the styling. I have to do a single page that has three components, the first one is the navigation bar, the second one is to make a text that will be the overlay on a background image, and then some card. when all the content was done I moved to the CSS part and styled all the elements, then I noticed the other screen size and for the mobile view of navigation, I used a small javascript code.
+
 Issues - I have faced an issue regarding hosting the page on the GitHub page, so I have changed the navigation link/directory accordingly to the GitHub page link. After that the script tag wasn't working on the hosted site but smoothly working on the local machine, then I figured out that I had used the script as a self-closing tag, and that created the issue while rendering the data for the GitHub page. Then I make script tag according to opening and closing tag and the project is up and running alhamdulillah.
